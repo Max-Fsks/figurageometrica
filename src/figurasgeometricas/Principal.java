@@ -11,6 +11,7 @@ public class Principal {
     Quadrado quadrado = new Quadrado();
     Triangulo triangulo = new Triangulo();
     FiguraEquilatero fig = new FiguraEquilatero();
+    
     desenhar desenha = new desenhar(quadrado);
     
     desenha.desenha();
